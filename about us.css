@@ -104,6 +104,7 @@ tfoot td{
 
 /*Images of the intro-about and branches sections at 650px Responsiveness*/
 @media screen and (max-width: 650px) {
+    
     #intro-about img,
     .branches img{
         width: 650px;
@@ -113,6 +114,7 @@ tfoot td{
 
 /*Headings and Paragraphs at 820px Responsiveness*/
 @media screen and (max-width: 820px) {
+
     .branches h2{
         font-size: 4em;
     }

@@ -149,19 +149,106 @@ h1{
     height: 300px;
 }
 
+
+
 /*Mobile Responsiveness*/
 
-@media (max-width:1280px){
+/*Sliding Banner at 1280px Responsiveness*/
+@media (max-width: 1280px){
     .slider{
         width: 100%;
     }
 }
 
-@media (max-width: 1200px){ 
-    #section{
-        width: 90%;
+/*Sliding Banner at 425px Responsiveness*/
+@media (max-width: 425px){
+    .banner img{
+        width: 100%;
+        height: 170px;
     }
-    #section{
-        padding: 50px 30px 0px 30px;
+}
+
+/*Sections at 1350px Responsiveness*/
+@media screen and (max-width: 1350px) {
+
+    /*Heading 1*/
+    h1{
+        font-size: 3em;
     }
+
+    /*section id*/
+    #section{
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*containers class*/
+    .containers{
+        padding: 15px;
+        font-size: 2em;
+    }
+
+    /*Images in the containers class*/
+    .containers img{
+        width: 400px;
+        height: 450px;
+    }
+
+    /*Add to cart*/
+    .cart{
+        padding: 5px;
+    }
+
+    /*Sect class*/
+    .sect{
+        padding: 20px;
+    }
+
+    /*Heading 1 in sect class*/
+    .sect h1{
+        font-size: 2em;
+    }
+
+    /*Images in the sect class*/
+    .sect img{
+        width: 75%;
+        height: 450px;
+    }
+    
+    /*Lists in the sect class*/
+    .sect ul li,
+    .sect ol li{
+        font-size: 1.5em;
+    }
+}
+
+/*Sections at 425px Responsiveness*/
+@media screen and (max-width: 425px) {
+
+    /*Heading 1*/
+    h1{
+        font-size: 3.5em;
+    }
+
+    /*containers class*/
+    .containers{
+        padding: 20px;
+        font-size: 2.5em;
+    }
+
+    /*Images in the containers class*/
+    .containers img{
+        width: 200px;
+        height: 250px;
+    }
+
+    /*Images in the sect class*/
+    .sect img{
+        width: 100%;
+        height: 250px;
+    }
+    
 }
